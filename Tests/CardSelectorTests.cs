@@ -2,7 +2,7 @@
 using Cards;
 using Cards.Cards;
 using NUnit.Framework;
-using Tests.Mocks;
+using Tests.Builders;
 
 
 namespace Tests
@@ -14,7 +14,7 @@ namespace Tests
 		public void CanGetCard()
 		{
 			//Given default card set
-			var cardService = new CardSelector(CardSetMocks.DefaultCardSet);
+			var cardService = new CardSelector(CardSetBuilder.RandomCardSet);
 
 			//When
 			var newCard = cardService.GetCard();
@@ -27,7 +27,7 @@ namespace Tests
 		public void CardContainsFiveFeatures()
 		{
 			//Given default card set
-			var cardService = new CardSelector(CardSetMocks.DefaultCardSet);
+			var cardService = new CardSelector(CardSetBuilder.RandomCardSet);
 
 			//When
 			var newCard = cardService.GetCard();
@@ -41,7 +41,7 @@ namespace Tests
 		public void AllFeaturesContainUniqueNames()
 		{
 			//Given default card set
-			var cardService = new CardSelector(CardSetMocks.DefaultCardSet);
+			var cardService = new CardSelector(CardSetBuilder.RandomCardSet);
 
 			//When
 			var newCard = cardService.GetCard();
@@ -54,7 +54,7 @@ namespace Tests
 		public void CardFeaturesShouldMatchTheCardSetProvided()
 		{
 			//Given default card set
-			var cardSet = CardSetMocks.DefaultCardSet;
+			var cardSet = CardSetBuilder.RandomCardSet;
 			var cardService = new CardSelector(cardSet);
 
 			//When
@@ -73,7 +73,7 @@ namespace Tests
 		public void CardFeaturesShouldContainAValue()
 		{
 			//Given default card set
-			var cardService = new CardSelector(CardSetMocks.DefaultCardSet);
+			var cardService = new CardSelector(CardSetBuilder.RandomCardSet);
 
 			//When
 			var newCard = cardService.GetCard();
@@ -90,7 +90,7 @@ namespace Tests
 		public void CardFeaturesShouldBeInTheFeatureDefinitionRange()
 		{
 			//Given default card set
-			var cardSet = CardSetMocks.DefaultCardSet;
+			var cardSet = CardSetBuilder.RandomCardSet;
 			var cardService = new CardSelector(cardSet);
 
 			//When

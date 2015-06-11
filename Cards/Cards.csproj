@@ -41,10 +41,11 @@
   <ItemGroup>
     <Compile Include="Cards\Card.cs" />
     <Compile Include="Cards\CardSelector.cs" />
-    <Compile Include="Cards\ICardSet.cs" />
-    <Compile Include="Features\Feature.cs" />
-    <Compile Include="Features\FeatureFactory.cs" />
-    <Compile Include="Features\IFeatureDefinition.cs" />
+    <Compile Include="Cards\CardSets\ICardSet.cs" />
+    <Compile Include="Cards\CardSets\Random\FeatureDefinition.cs" />
+    <Compile Include="Cards\CardSets\Random\FeatureFactory.cs" />
+    <Compile Include="Cards\CardSets\Random\RandomCardSet.cs" />
+    <Compile Include="Cards\Feature.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

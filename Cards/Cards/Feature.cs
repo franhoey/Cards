@@ -1,4 +1,4 @@
-﻿namespace Cards.Features
+﻿namespace Cards.Cards
 {
 	public class Feature
 	{

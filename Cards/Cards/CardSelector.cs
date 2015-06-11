@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
-using Cards.Features;
+using Cards.Cards.CardSets;
+using Cards.Cards.CardSets.Random;
 
 namespace Cards.Cards
 {
@@ -18,8 +19,7 @@ namespace Cards.Cards
 
 	    public Card GetCard()
 	    {
-			return new Card(
-				_cardSet.Features.Select(FeatureFactory.BuildFeature));
+			return _cardSet.GetCard();
 	    }
     }
 }

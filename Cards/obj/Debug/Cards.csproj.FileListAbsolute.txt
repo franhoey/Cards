@@ -3,8 +3,8 @@ C:\Projects\other\Card\Cards\bin\Debug\Cards.pdb
 C:\Projects\other\Card\Cards\obj\Debug\Cards.csprojResolveAssemblyReference.cache
 C:\Projects\other\Card\Cards\obj\Debug\Cards.dll
 C:\Projects\other\Card\Cards\obj\Debug\Cards.pdb
-C:\Projects\other\Cards\Cards\bin\Debug\Cards.dll
-C:\Projects\other\Cards\Cards\bin\Debug\Cards.pdb
-C:\Projects\other\Cards\Cards\obj\Debug\Cards.csprojResolveAssemblyReference.cache
-C:\Projects\other\Cards\Cards\obj\Debug\Cards.dll
-C:\Projects\other\Cards\Cards\obj\Debug\Cards.pdb
+C:\Projects\other\cards\Cards\bin\Debug\Cards.dll
+C:\Projects\other\cards\Cards\bin\Debug\Cards.pdb
+C:\Projects\other\cards\Cards\obj\Debug\Cards.dll
+C:\Projects\other\cards\Cards\obj\Debug\Cards.pdb
+C:\Projects\other\cards\Cards\obj\Debug\Cards.csprojResolveAssemblyReference.cache
