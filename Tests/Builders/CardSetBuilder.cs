@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using Cards.Cards.CardSets;
 using Cards.Cards.CardSets.Random;
 
 namespace Tests.Builders
@@ -14,6 +15,8 @@ namespace Tests.Builders
 				CreateDefinition("d", 1000, 50000),
 				CreateDefinition("e", 1, 10)
 			});
+
+		//public static DefinedCardSet DefinedCardSet { get; private set; }
 
 		private static FeatureDefinition CreateDefinition(string name, int min, int max)
 		{

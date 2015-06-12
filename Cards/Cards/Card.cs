@@ -10,5 +10,7 @@ namespace Cards.Cards
 		}
 
 		public IEnumerable<Feature> Features { get; private set; }
+
+
 	}
 }

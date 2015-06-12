@@ -107,6 +107,17 @@ namespace Tests
 				Assert.LessOrEqual(newCardFeatures[i].Value, cardSetFeatures[i].MaximumValue);
 			}
 		}
+/*
+		[Test]
+		public void CanSelectACardFromADefinedSetOfCard()
+		{
+			var cardService = new CardSelector(CardSetBuilder.DefinedCardSet);
 
+			var newCard = cardService.GetCard();
+
+			Assert.NotNull(newCard);
+			
+		}
+		*/
 	}
 }
